@@ -1,0 +1,21 @@
+{
+  "name": "yhbt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mikaturunen/yhbt",
+  "authors": [
+    "Mika Turunen <mika.turunen@ymail.com>"
+  ],
+  "description": "You Have Been Tasked centralized development repository",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "yhbt-header": "./yhbt-header/"
+  }
+}
