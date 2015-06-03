@@ -1,0 +1,24 @@
+{
+  "name": "yhbt",
+  "version": "0.0.1",
+  "description": "You Have Been Tasked! collective repo for easier development",
+  "main": "gulpfile.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaturunen/yhbt.git"
+  },
+  "keywords": [
+    "YHBT"
+  ],
+  "author": "Mika Turunen <mika.turunen@ymail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaturunen/yhbt/issues"
+  },
+  "homepage": "https://github.com/mikaturunen/yhbt",
+  "dependencies": {
+    "hapi": "^8.6.0"
+  }
+}
