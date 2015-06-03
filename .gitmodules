@@ -1,3 +1,6 @@
 [submodule "youhavebeentasked"]
 	path = youhavebeentasked
 	url = git@github.com:mikaturunen/youhavebeentasked.git
+[submodule "yhbt-header"]
+	path = yhbt-header
+	url = git@github.com:mikaturunen/yhbt-header.git
