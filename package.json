@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "You Have Been Tasked! collective repo for easier development",
   "main": "gulpfile.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/mikaturunen/yhbt.git"
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/mikaturunen/yhbt",
   "dependencies": {
-    "hapi": "^8.6.0"
+    "hapi": "^8.6.0",
+    "jsonwebtoken": "^5.0.1"
   }
 }
