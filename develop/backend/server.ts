@@ -1,4 +1,7 @@
-import Hapi from "hapi";
+// ES5 specific modules
+import * as Hapi from "hapi";
+
+// Project modules
 
 var server = new Hapi.Server();
 server.connection({
