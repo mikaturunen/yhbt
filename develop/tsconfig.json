@@ -1,0 +1,45 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./**/*.ts",
+        "../yhbt-definitions/typedefinitions/**/*.d.ts",
+        "!./../node_modules/**/*.ts",
+        "!./../release/**/*.ts"
+    ],
+    "files": [
+        "./backend/server.ts",
+        "../yhbt-definitions/typedefinitions/bcrypt/bcrypt.d.ts",
+        "../yhbt-definitions/typedefinitions/body-parser/body-parser.d.ts",
+        "../yhbt-definitions/typedefinitions/client.d.ts",
+        "../yhbt-definitions/typedefinitions/cookie-parser/cookie-parser.d.ts",
+        "../yhbt-definitions/typedefinitions/express-session/express-session.d.ts",
+        "../yhbt-definitions/typedefinitions/express/express.d.ts",
+        "../yhbt-definitions/typedefinitions/hapi/hapi.d.ts",
+        "../yhbt-definitions/typedefinitions/merge-interfaces.d.ts",
+        "../yhbt-definitions/typedefinitions/models.d.ts",
+        "../yhbt-definitions/typedefinitions/mongodb/mongodb.d.ts",
+        "../yhbt-definitions/typedefinitions/node/node.d.ts",
+        "../yhbt-definitions/typedefinitions/passport-local/passport-local.d.ts",
+        "../yhbt-definitions/typedefinitions/passport/passport.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.app-router.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.core-drawer-panel.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.core-overlay.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.core-selector.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.paper-dialog.d.ts",
+        "../yhbt-definitions/typedefinitions/polymer/polymer.paper-toast.d.ts",
+        "../yhbt-definitions/typedefinitions/q/Q.d.ts",
+        "../yhbt-definitions/typedefinitions/server.d.ts"
+    ]
+}
