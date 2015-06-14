@@ -4,3 +4,6 @@
 [submodule "yhbt-header"]
 	path = yhbt-header
 	url = git@github.com:mikaturunen/yhbt-header.git
+[submodule "yhbt-definitions"]
+	path = yhbt-definitions
+	url = git@github.com:mikaturunen/yhbt-definitions.git
