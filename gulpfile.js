@@ -31,15 +31,15 @@ var ignore = require("gulp-ignore");
 // Definitions explicitly done for this project
 var projectDefinitions = [ ];
 var fromDefinitelyTypedServer = [
-    "typedefinitions/server.d.ts"
+    "yhbt-definitions/typedefinitions/server.d.ts"
 ];
 var fromDefinitelyTypedClient = [
-    "typedefinitions/client.d.ts"
+    "yhbt-definitions/typedefinitions/client.d.ts"
 ];
 
 var typeDefinitionsServer = fromDefinitelyTypedServer
     .concat(projectDefinitions)
-    .concat([ "backend/**/*.ts" ]);
+    .concat([ "services/**/*.ts" ]);
 
 var typeDefinitionsClient = fromDefinitelyTypedClient
     .concat(projectDefinitions)
