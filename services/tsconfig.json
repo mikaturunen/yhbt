@@ -18,6 +18,7 @@
         "!./../release/**/*.ts"
     ],
     "files": [
+        "./cdn.ts",
         "./token.ts",
         "../yhbt-definitions/typedefinitions/bcrypt/bcrypt.d.ts",
         "../yhbt-definitions/typedefinitions/body-parser/body-parser.d.ts",
