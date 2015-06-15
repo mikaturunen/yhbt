@@ -3,11 +3,13 @@
  * public files. Such as the JS, HTML, IMG and the likes.
  */
 
+// TODO fix Hapi typing
+var Hapi: any = require("hapi");
+
 // ES5 specific modules
-import * as Hapi from "hapi";
 import * as path from "path";
 
-// Project modules
+// ES6 specific modules
 
 // Using HAPI for the CDN front
 var server = new Hapi.Server();
