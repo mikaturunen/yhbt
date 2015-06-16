@@ -14,16 +14,17 @@ import * as path from "path";
 // Using HAPI for the CDN front
 var server = new Hapi.Server();
 server.connection({
-    host: process.env.HOST,
-    port: process.env.PORT
+    host: process.env.HOST || "127.0.0.1",
+    port: process.env.PORT || 3000
 });
 
+// Setting up static coures for CDN like behavior when we want to serve our files
 server.route({
     method: "GET",
     path: "/public/{param*}",
     handler: {
         directory: {
-            path: path.join(__dirname, "../")
+            path: path.join(__dirname, "../frontend/")
         }
     }
 });
