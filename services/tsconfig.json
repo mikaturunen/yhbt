@@ -21,6 +21,7 @@
         "./cdn.ts",
         "./token.ts",
         "../yhbt-definitions/typedefinitions/bcrypt/bcrypt.d.ts",
+        "../yhbt-definitions/typedefinitions/bluebird/bluebird.d.ts",
         "../yhbt-definitions/typedefinitions/body-parser/body-parser.d.ts",
         "../yhbt-definitions/typedefinitions/client.d.ts",
         "../yhbt-definitions/typedefinitions/cookie-parser/cookie-parser.d.ts",
