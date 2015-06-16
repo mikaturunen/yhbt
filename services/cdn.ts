@@ -29,4 +29,6 @@ server.route({
     }
 });
 
+// TODO start rabbitmq for communication
+
 server.start();
