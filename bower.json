@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "yhbt-header": "./yhbt-header/"
+    "yhbt-header": "./yhbt-header/",
+    "polymer": "Polymer/polymer#1.0.0"
   }
 }
