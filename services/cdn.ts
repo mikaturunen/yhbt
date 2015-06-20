@@ -29,9 +29,10 @@ server.route({
     }
 });
 
+// Listing all the working routes.
 server.route({
     method: "GET",
-    path: "*",
+    path: "/{param*}",
     handler: (request: any, reply: any) => {
         let indexPath = path.join(__dirname, "../../youhavebeentasked/release/frontend/index.html");
         console.log("Attempting to get index.html from:", indexPath);

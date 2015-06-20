@@ -23,6 +23,7 @@ var copy = require("gulp-copy");
 var babel = require("gulp-babel");
 var rimraf = require("gulp-rimraf");
 var ignore = require("gulp-ignore");
+var chug = require("gulp-chug");
 
 
 // Declaring some constants for use during the gulp build process. Mainly the locations of certain files and naming
@@ -46,7 +47,7 @@ var typeDefinitionsClient = fromDefinitelyTypedClient
     .concat([ "frontend/**/*.ts" ]);
 
 var jadeLocation = [
-    "frontend/**/*.jade"
+    "content/**/*.jade"
 ];
 
 var tmpLocation = "./tmp/";
@@ -147,6 +148,14 @@ gulp.task(rimrafLocations, function() {
         .pipe(rimraf());
 });
 
+var subGulp = "subgulp";
+gulp.task(subGulp, function() {
+    return gulp.src([
+            "./yhbt-header/gulpfile.js"
+        ])
+        .pipe(chug());
+});
+
 /**
  * Run with: gulp default.
  * Executes the default task, essentially going through all possible steps.
@@ -154,6 +163,7 @@ gulp.task(rimrafLocations, function() {
 gulp.task("default", function() {
     sequence(
         rimrafLocations,
+        // subGulp,
         [
             taskTslintServer,
             taskTslintClient,
