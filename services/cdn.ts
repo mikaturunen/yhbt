@@ -29,6 +29,16 @@ server.route({
     }
 });
 
+server.route({
+    method: "GET",
+    path: "*",
+    handler: (request: any, reply: any) => {
+        let indexPath = path.join(__dirname, "../../youhavebeentasked/release/frontend/index.html");
+        console.log("Attempting to get index.html from:", indexPath);
+        reply.file(indexPath);
+    }
+});
+
 // TODO start rabbitmq for communication
 
 server.start();
