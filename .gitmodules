@@ -7,3 +7,6 @@
 [submodule "yhbt-definitions"]
 	path = yhbt-definitions
 	url = git@github.com:mikaturunen/yhbt-definitions.git
+[submodule "yhbt-seed"]
+	path = yhbt-seed
+	url = git@github.com:mikaturunen/yhbt-seed.git
