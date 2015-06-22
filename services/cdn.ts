@@ -29,12 +29,24 @@ server.route({
     }
 });
 
+// Static routes for common Polymer component hierachies. Polymer elemnets are commonly
+// referenced from "bower" as "components". This allows existing Polyme relements to work properly.
+server.route({
+    method: "GET",
+    path: "/components/{param*}",
+    handler: {
+        directory: {
+            path: path.join(__dirname, "../frontend/bower/")
+        }
+    }
+});
+
 // Listing all the working routes.
 server.route({
     method: "GET",
     path: "/{param*}",
     handler: (request: any, reply: any) => {
-        let indexPath = path.join(__dirname, "../../youhavebeentasked/release/frontend/index.html");
+        let indexPath = path.join(__dirname, "../../release/frontend/index.html");
         console.log("Attempting to get index.html from:", indexPath);
         reply.file(indexPath);
     }
