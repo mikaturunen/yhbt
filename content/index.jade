@@ -9,10 +9,11 @@ html(lang="en")
 
         title YHBT!
 
+        link(rel="stylesheet" href="/public/styles.css")
         //- Loading the platform support before any other code starts touching the DOM 
         script(src="/components/webcomponentsjs/webcomponents-lite.min.js")
         link(rel="import" href="/components/yhbt-header/release/yhbt-header.html")
         
-    body().fullbleed.layout.vertical 
+    body(fullbleed unresolved vertical layout)
         yhbt-header
     
