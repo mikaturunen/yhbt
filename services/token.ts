@@ -23,7 +23,7 @@ var token = jwt.sign({ accountId: 123 }, privateKey);
 
 const validate = (decodeToken: any, callback: Function) => {
     var error: string = undefined;
-    var credentials = accounts[decodeToken.accountId] || { };
+    var credentials = (<any>accounts)[<any>decodeToken.accountId] || { };
 
     if (!credentials) {
         // USER NOT FOUND
