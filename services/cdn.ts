@@ -55,3 +55,4 @@ server.route({
 // TODO start rabbitmq for communication
 
 server.start();
+console.log("CDN online.");
