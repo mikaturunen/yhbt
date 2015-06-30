@@ -18,6 +18,7 @@
   "dependencies": {
     "yhbt-seed": "mikaturunen/yhbt-seed",
     "yhbt-header": "./yhbt-header/",
+    "polymer-login": "./polymer-login",
     "polymer": "Polymer/polymer#1.0.0"
   }
 }
