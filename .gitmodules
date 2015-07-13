@@ -10,3 +10,6 @@
 [submodule "yhbt-seed"]
 	path = yhbt-seed
 	url = git@github.com:mikaturunen/yhbt-seed.git
+[submodule "polymer-login"]
+	path = polymer-login
+	url = git@github.com:mikaturunen/polymer-login.git
