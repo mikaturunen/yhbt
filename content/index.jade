@@ -16,6 +16,10 @@ html(lang="en")
         
         //- Loading the platform support before any other code starts touching the DOM 
         script(src="/components/webcomponentsjs/webcomponents-lite.min.js")
+        script.
+            window.Polymer = window.Polymer || {};
+            window.Polymer.dom = "shadow";
+            
         link(rel="import" href="/components/yhbt-header/release/yhbt-header.html")
         
     body(fullbleed unresolved vertical layout)
