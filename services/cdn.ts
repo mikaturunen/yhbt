@@ -41,6 +41,15 @@ server.route({
     }
 });
 
+// TODO move these login and logout routes out of the CDN and have a service for them
+server.route({
+    method: "POST",
+    path: "/login",
+    handler: (request: any, reply: any) => {
+        reply({});
+    }
+});
+
 // Listing all the working routes.
 server.route({
     method: "GET",
