@@ -1,15 +1,6 @@
-[submodule "youhavebeentasked"]
-	path = youhavebeentasked
-	url = git@github.com:mikaturunen/youhavebeentasked.git
-[submodule "yhbt-header"]
-	path = yhbt-header
-	url = git@github.com:mikaturunen/yhbt-header.git
 [submodule "yhbt-definitions"]
 	path = yhbt-definitions
 	url = git@github.com:mikaturunen/yhbt-definitions.git
-[submodule "yhbt-seed"]
-	path = yhbt-seed
-	url = git@github.com:mikaturunen/yhbt-seed.git
-[submodule "polymer-login"]
-	path = polymer-login
-	url = git@github.com:mikaturunen/polymer-login.git
+[submodule "yhbt-components"]
+	path = yhbt-components
+	url = git@github.com:mikaturunen/yhbt-components.git
