@@ -16,9 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "yhbt-seed": "mikaturunen/yhbt-seed",
-    "yhbt-header": "./yhbt-header/",
-    "polymer-login": "./polymer-login",
-    "polymer": "Polymer/polymer#1.0.0"
+    "polymer": "Polymer/polymer#^1.2.0",
+    "yhbt-components": "./yhbt-components/"
   }
 }

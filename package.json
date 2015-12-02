@@ -19,7 +19,9 @@
   "homepage": "https://github.com/mikaturunen/yhbt",
   "dependencies": {
     "clone": "^1.0.2",
+    "gulp": "^3.9.0",
     "gulp-chug": "^0.4.2",
+    "gulp-hub": "^0.7.1",
     "hapi": "^8.6.1",
     "hapi-auth-jwt": "^2.1.2",
     "jsonwebtoken": "^5.0.1",
